@@ -1,7 +1,12 @@
 import UIKit
 
 
+
+
+
 //Задание №1
+
+
 
 struct SportCar {
     let motorVolume: Float
@@ -10,6 +15,7 @@ struct SportCar {
     let year: Int
     
 }
+
 
 let porshe = SportCar(motorVolume: 1.6, color: "green", seat: 4, year: 2005)
  
@@ -29,6 +35,8 @@ kamaz.trunkVolume
 
 
 //Задание №2
+
+
 
 struct Car {
     
@@ -71,21 +79,25 @@ struct Car {
         
         }
     
-   
-    
 }
 var car = Car(model: "Tesla", year: 2020, trunkVolume: 500)
+
+
 
 
 //Задание 4
 car.handleEngine()
 car.liftingWindow()
 car.liftingWindow()
+
+
 //Задание 5
 var car1 = Car(model: "Audi", year: 2015, trunkVolume: 500, enginState: .isOn, window: .isUp)
 var car2 = Car(model: "BMW", year: 2017, trunkVolume: 635, enginState: .isOn, window: .isDown)
 car2.model
 car2.year = 2020
+
+
 
 // Задание 6
 
